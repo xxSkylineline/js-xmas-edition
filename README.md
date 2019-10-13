@@ -1,87 +1,59 @@
-# Letter to Santa
+# Carta a Santa
 
-JavaScript workshop (forms, inputs, validation, events, RegExp, objects, callbacks , 
-local storage, ajax)
-
-## Slides
-
-Check on slides, click [here](http://slides.com/tanyabutenko/ngs-intro-14#/)
+Taller JavaScript (forms, inputs, validation, events, RegExp, objects, callbacks , local storage, ajax)
 
 
 ## Feedback
 
-To leave feedback click [here](https://goo.gl/forms/DscFrT1hC3HCPfeJ2)
+Abren un issue en este repositorio.
 
 
-
-How to use
+Cómo empezar
 ============
 
+Si estás familiarizado con git puedes clonar este repositorio a tu pc y empezar a trabajar con archivos a partir del archivo README.md, después de eso ve al archivo instructions/level1.md.
 
+Si no sabes qué es git, puedes descargar la carpeta en tu pc - en la esquina superior derecha haz click en el botón verde que dice 'Clonar o Descargar' y 'Descargar ZIP'. Descomprimelo y comienza desde el archivo README.md, luego ve al archivo instructions/level1.md.
 
-If you familiar with git you can fork this repository to your machine and start working
-through files starting from README.md file, after that jump to instructions/level1.md file.
+Para abrir una página web en su navegador vaya al archivo index.html y haga doble clic sobre él, verá una opción `abrir en el navegador' - preferiblemente use Chrome, pero Firefox y Safari también funcionarán.
 
+Siga las instrucciones en el archivo level1.md y escriba el código en su Editor de Texto (es donde está su código y puede escribir, editar y borrar código), para poder ver cualquier cosa en console.log() necesita refrescar la página web y el resultado estará en la consola web en la página (puede escribir directamente el código javaScript aquí también y ver el resultado de inmediato, pero tan pronto como actualice la página todo el código desaparecerá, por eso usamos el Editor de Texto).
 
-If you don't know what is git you can download the folder on your machine - on the top right corner hit
-'Clone or Download' green button and 'Download ZIP'.
-Unzip it and start from README.md file, after jump to instructions/level1.md file.
+### Estructura
 
+La carpeta Css contiene archivos css que son responsables de los estilos y de cómo se ve nuestro proyecto en la web.
 
-To open web-page in your browser go to _index.html_ file and double click on it, you will see
-an option 'open in browser' - preferably use Chrome, but Firefox and Safari will work as well.
+carpeta img - un lugar donde podemos almacenar imágenes que usaremos en nuestra página web
 
-Follow the instructions in _level1.md_ file and type code in your Text Editor(it is where your code 
-lives and you can write, edit and delete code), in order to see anything that you console.log() you 
-need refresh web page and result will be in web console on the page(you can directly write javaScript 
-code here as well and see result straight away, but as soon as you refresh the page all code will be 
-gone, that is why we use Text Editor).
+Las carpetas de instrucciones contienen archivos con instrucciones paso a paso sobre lo que debe hacer: Contiene 3 archivos:
 
+level1.md - para crear formularios web y diferentes tipos de entrada, expresiones regulares
 
+level2.md - para almacenar entradas en el almacenamiento local
 
-Structure
-============
+level3.md - para mostrar todos los deseos en la página de la lista de deseos y presente al azar en la página de resultados.
 
+extra-steps.md - tareas extras que puedes hacer si estás interesado en aprender más cosas y modificar tu pequeño proyecto.
 
-- Css folder contains css files that are responsible for styles and how our project looks 
-  on the web.
+La carpeta Js contiene archivos JavaScript que hacen que nuestro proyecto funcione, define el contenido y hace que la página estática sea funcional. Contiene el archivo main.js donde usted escribe todo su código. answers.js - archivo con todo el código de trabajo.
 
-- img folder - a place where we can store images that we will use on our web-page
+index.html - un fichero responsable de la estructura de nuestro proyecto.
 
-- instructions folder contains files with step by step instructions on what you should do:
-  It contains 3 files:
-    - _level1.md_ - create web form and different types of input, regular expressions
-    - _level2.md_ - store input in local storage
-    - _level3.md_ - display all wishes on wish-list page and randomly give present on result page.
-    - _extra-steps.md_ - extra tasks you can do if you are interested to learn more things 
-      and modify your small project.
+result.html and wish-list.html - nuestras otras 2 páginas de resultados o para buscar resultados - donde Santa elige tu regalo y wish-list - una lista de tus deseos.
 
-- Js folder contains JavaScript files that makes our project works, it defines content and make 
-  static page functional.
-  Contains _main.js_ file where you write all your code.
-  _answers.js_ - file with whole working code.
+html-form-description.txt - un archivo con una explicación detallada sobre el formulario HTML y diferentes tipos de etiquetas de entrada con sus atributos.
 
-- _index.html_ - a file responsible for structure of our project.
+regular-expressions.txt - un archivo con enlaces a la hoja de trucos, más información y juegos con Expresiones Regulares o RegExp.
 
-- _result.html_ and _wish-list.html_ - our 2 other pages for result - where Santa choose on your 
-  gift and wish-list - a list of your wishes page.
+Readme.md - un archivo con explicaciones y cualquier información sobre el proyecto, cómo ejecutarlo, para qué sirve, etc.
 
-- _html-form-description.txt_ - a file with in detail explanation on HTML form and different types 
-  of input tags with it's attributes.
+cheat-sheet.md - archivos con una vista rápida de los nombres de las claves y sus explicaciones.
 
-- _regular-expressions.txt_ - a file with links to cheat sheet, more information and games with 
-  Regular Expressions or RegExp.
-
-- _Readme.md_ - a file with explanations and any information about the project, how to run it, 
-  what it is for etc.
-
-- _cheat-sheet.md_ - file with quick overlook for key namings and their explanations.
-
-- _LICENSE_ - our MIT license file.
+LICENSE - nuestro archivo de licencia del MIT.
 
 
 
-Authors
+Autores
 =======
 
 - Tanya Butenko
@@ -92,3 +64,4 @@ Authors
     github: [https://github.com/ReenaRajani](https://github.com/ReenaRajani)
     twitter: [@ReenaRajani](https://twitter.com/ReenaRajani)
 
+- Traducción: Cintia Tai
