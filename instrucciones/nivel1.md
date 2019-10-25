@@ -298,7 +298,7 @@ El método `forEach` lo podemos ver [en MDN directamente](https://developer.mozi
 
 
 9.Interactuando cuando el envío es exitoso
-===================================
+~~===================================~~
 
   Ahora, qué pasa si todo fue bien?
    
